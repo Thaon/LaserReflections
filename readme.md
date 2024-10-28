@@ -11,15 +11,25 @@ Initializes the _lineRenderer_ by getting the _LineRenderer_ component attached 
 LateUpdate Method:
 
 Clears the _points_ list and adds the current position of the GameObject as the starting point.
+
 Sets the initial direction of the laser beam to be upwards.
+
 Uses a loop to simulate the laser beam:
+
 Casts a ray in the current direction to check for collisions.
+
 If it hits something:
+
 Adds the hit point to _points_.
+
 If it hits a mirror, calculates the reflection direction and continues.
+
 If it hits a laser receiver, activates the receiver and stops the laser.
+
 If it hits something else, stops the laser.
+
 If it doesn't hit anything, adds a point at the maximum distance and stops the laser.
+
 Updates the LineRenderer with the points in _points_.
 
 ```
