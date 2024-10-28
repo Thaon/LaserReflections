@@ -22,7 +22,7 @@ If it hits something else, stops the laser.
 If it doesn't hit anything, adds a point at the maximum distance and stops the laser.
 Updates the LineRenderer with the points in _points_.
 
-````
+```
 class LaserBeam:
 
 member variables:
@@ -54,5 +54,4 @@ points = []
                 foundHit = false
 
         update LineRenderer with points
-    ```
-````
+```
