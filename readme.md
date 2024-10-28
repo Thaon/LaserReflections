@@ -30,6 +30,8 @@ If it hits something:
 - If it doesn't hit anything, adds a point at the maximum distance and stops the laser.
 - Updates the LineRenderer with the points in _points_.
 
+## Pseudocode:
+
 ```
 class LaserBeam:
 
